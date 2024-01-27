@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: waterfall mat
-  m_Shader: {fileID: -6465566751694194690, guid: d3203d489c0632f4682b82c9224b7d8b, type: 3}
+  m_Name: wat02
+  m_Shader: {fileID: -6465566751694194690, guid: c539d8c58239a6a4f9182a43216785da, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,6 +23,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: cbd91b8aa94abfa44afe968abda7c0b0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -39,17 +43,11 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Rapple_Amount: 4
-    - _Vertexoffsetamount: -1
-    - _Voronoi_Scale: 14
-    - _Voronoi_Speed: 3
-    - _bottomBrightness: 5
-    - _bottom_strength: 5
     m_Colors:
-    - _RappleColor: {r: 0.18789603, g: 0.5315492, b: 0.5471698, a: 1}
-    - _Waterspeed: {r: 0, g: 0.4, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Scroll_Speed: {r: 0, g: 0.3, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &966242994394593714
+--- !u!114 &5723568622244017202
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
