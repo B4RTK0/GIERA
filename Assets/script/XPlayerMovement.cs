@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class XPlayerMovement : MonoBehaviour
 
 {
     public float horizontalInput;
@@ -39,9 +39,9 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-        transform.Translate(Vector3.forward * Time.deltaTime * verticalInput * walkSpeed);
+        //transform.Translate(Vector3.forward * Time.deltaTime * verticalInput * walkSpeed);
         //transform.Translate(-Vector3.left * Time.deltaTime * horizontalInput);
-        transform.Rotate(Vector3.up * horizontalInput * turnSpeed * Time.deltaTime); 
+        transform.parent.Rotate(Vector3.up * horizontalInput * turnSpeed * Time.deltaTime); 
         
 
     }
